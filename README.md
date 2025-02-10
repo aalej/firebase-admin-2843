@@ -43,7 +43,7 @@ Firestore and Auth does not require credentials when connecting to the emulator
    - No errors raised
    - User created when visiting "http://127.0.0.1:4000/auth"
      <img src="./images/auth-em.png">
-4. (AUTH) Run `node firestore.js`
+4. (FIRESTORE) Run `node firestore.js`
    - No errors raised
    - User created when visiting "http://127.0.0.1:4000/firestores"
      <img src="./images/firestore-em.png">
