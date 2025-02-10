@@ -33,6 +33,14 @@ FirebaseAppError: Credential implementation provided to initializeApp() via the 
 }
 ```
 
+### Expected behavior
+
+Running `node dataconnect.js ` should output:
+
+```
+{"data":{"movies":[]}}
+```
+
 ## Notes
 
 Firestore and Auth does not require credentials when connecting to the emulator
